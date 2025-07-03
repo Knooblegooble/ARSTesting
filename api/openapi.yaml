@@ -4,8 +4,8 @@ info:
   description: API for storing and retrieving .mp3 audio files
   version: 1.0.0
 servers:
-- url: ""
-  description: ""
+- url: https://arstesting.onrender.com
+  description: Render Test
 paths:
   /audio:
     get:
