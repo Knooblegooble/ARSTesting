@@ -1,0 +1,12 @@
+# Exported from Render on 2025-07-03T20:13:28Z
+services:
+- type: web
+  name: ARSTesting
+  runtime: node
+  repo: https://github.com/Knooblegooble/ARSTesting
+  plan: free
+  region: oregon
+  buildCommand: yarn install
+  startCommand: node index.js
+  autoDeployTrigger: commit
+version: "1"
